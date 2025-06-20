@@ -54,7 +54,7 @@ function submitQuiz() {
   });
   const result = document.getElementById("quiz-result");
   result.textContent = `✅ You got ${score} out of ${quizQuestions.length} correct.`;
-  result.style.color = score >= 3 ? "lightgreen" : "red";
+  result.style.color = score >= 3 ? "blue" : "red";
   result.classList.add("show");
 }
 
