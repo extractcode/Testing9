@@ -124,4 +124,17 @@ section {
   .container {
     padding: 2rem;
   }
+
+  .weather-gif {
+    height: 250px;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .quiz-block {
+    max-width: 700px;
+    margin: 0 auto 20px auto; /* center block and add spacing */
+  }
 }
